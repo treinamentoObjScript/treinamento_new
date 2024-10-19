@@ -1,0 +1,7 @@
+ROUTINE Exercicio7
+Exercicio7
+ Read "Digite seu nome completo",!,nome,!
+	
+	Write $Length(nome),!
+	Write $Length(nome)-($Length(nome," ")-1),!
+	Write $Replace(nome," ","|"),!

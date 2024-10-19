@@ -1,0 +1,10 @@
+ROUTINE Exercicio1
+Exercicio1(
+   x, y)
+   
+ 	For a=x:1:y
+	{
+		If a#2=0 Write a_" é par",!
+	}
+	// teste 
+	

@@ -1,0 +1,27 @@
+ROUTINE Exercicio5
+Exercicio5
+ 
+ Read "Digite a quantidade de alunos para cadastrar:",qtdAlunos
+	
+	for x=1:1:qtdAlunos
+	{
+		Write "Digite os dados do aluno "_x,!
+		Read "Digite a matrícula do aluno:",^tAluno(x,"matricula")
+		Read "Digite o nome completo do aluno: ",^tAluno(x,"nome")
+		Read "Digite o telefone do aluno: ",^tAluno(x,"telefone")
+		Read "Digite a data de nascimento do aluno: ",^tAluno(x,"dataNascimento")
+		Read "Digite o sexo do aluno: ",^tAluno(x,"sexo")
+		ZW ^tAluno
+	}
+	
+	for x=1:1:qtdAlunos
+	{
+		Write "Dados do aluno "_x,!
+		Write "Matrícula do aluno: ",^tAluno(x,"matricula"),!
+		Write "Nome completo do aluno: ",^tAluno(x,"nome"),!
+		Write "Telefone do aluno: ",^tAluno(x,"telefone"),!
+		Write "Data de nascimento do aluno: ",^tAluno(x,"dataNascimento"),!
+		Write "Sexo do aluno: ",^tAluno(x,"sexo"),!,!
+	}
+	
+	

@@ -1,0 +1,9 @@
+ROUTINE Exercicio6
+Exercicio6
+ Read "Digite a data no formato DD/MM/YYYY",!,data,!
+	
+	Write $ZDateH(data,4),!
+	Write $ZDate($ZDateH(data,4),18),!
+	Write $Piece($ZDate($ZDateH(data,4),18)," ",2),!
+	
+	

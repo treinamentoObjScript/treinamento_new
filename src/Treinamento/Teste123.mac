@@ -1,0 +1,4 @@
+ROUTINE Treinamento.Teste123
+TreinamentoTeste123 ;
+ Read "Digite o valor de x:",x 
+ Read "Digite o valor de y:",y

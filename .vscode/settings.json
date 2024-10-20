@@ -1,5 +1,19 @@
 {
     "objectscript.conn": {
-        "active": true
+        "active": true,
+        "host": "localhost",
+        "port": 52773,
+        "username": "rande",
+        "password": "Felipe@2011",
+        "ns": "TREINAMENTO_NEW",
+        "https": false
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[objectscript-class]": {
+      
     }
-}
+  }
+  

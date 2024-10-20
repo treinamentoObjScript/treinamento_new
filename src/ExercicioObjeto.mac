@@ -1,0 +1,44 @@
+ROUTINE ExercicioObjeto
+ExercicioObjeto
+ Kill ^Treinamento.Data.CursoD
+  Kill ^Treinamento.Data.InstrutorD
+  Kill ^Treinamento.Data.AlunoD
+ 
+ Set curso = ##class(Treinamento.Data.Curso).%New()
+ Set curso.Nome = "OBJ IRIS Degub"
+ Set curso.Preco = 123456.90
+ Set curso.Duracao = 12
+ Set Status = curso.%Save()
+ 	Write "Curso Salvo com sucesso!",!
+
+ 
+	Set instrutor = ##class(Treinamento.Data.Instrutor).%New()
+	Set instrutor.Nome = "Clayton Aquino"
+	Set instrutor.Matricula = "1234"
+	
+	Set status = instrutor.%Save()
+    Write "instrutor Salvo com sucesso!",!
+
+    Set aluno1 = ##class(Treinamento.Data.Aluno).%New()
+	Set aluno1.Nome = "Helena Aquino "
+	Set aluno1.Matricula = 123456
+	Set aluno1.Idade = 35
+	
+	Set status = aluno1.%Save()
+	
+	Set aluno2 = ##class(Treinamento.Data.Aluno).%New()
+	Set aluno2.Nome = "Felipe Aquino"
+	Set aluno2.Matricula = 356897
+	Set aluno2.Idade = 27
+	
+	Set status = aluno2.%Save()
+	
+	Set aluno3 = ##class(Treinamento.Data.Aluno).%New()
+	Set aluno3.Nome = "Chico Aquino"
+	Set aluno3.Matricula = 827391
+	Set aluno3.Idade = 30
+    Set status = aluno3.%Save()
+
+      Write "Alunos Salvo com sucesso!",!
+
+
